@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><button class="nav-btn" onclick="scrollToSection('home')">Home</button></li>
+        <li><button class="nav-btn" onclick="scrollToSection('info')">Personal Info</button></li>
+        <li><button class="nav-btn" onclick="scrollToSection('skills')">Skills</button></li>
+        <li><button class="nav-btn" onclick="scrollToSection('education')">Education</button></li>
+        <li><button class="nav-btn" onclick="scrollToSection('achievements')">Achievements</button></li>
+        <li><button class="nav-btn" onclick="scrollToSection('contact')">Contact</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== LANDING HOME ===== -->
+  <section id="home" class="home-landing">
+    <div class="year fade-in">2025</div>
+    <h1 class="title fade-in">PORTFOLIO</h1>
+    <div class="name fade-in">SNEHA S</div>
+    <button class="action-btn fade-in" onclick="scrollToSection('info')">Explore More ↓</button>
+  </section>
+
+  <!-- ===== PERSONAL INFO ===== -->
+  <section id="info" class="section">
+    <h2>Personal Information</h2>
+    <ul>
+      <li><strong>Name:</strong>Sneha s</li>
+      <li><strong>Date of Birth:</strong> 31/12/2003</li>
+      <li><strong>Role:</strong> Student / Developer </li>
+      <li><strong>Location:</strong> Kozhikode , Kerala</li>
+    </ul>
+  </section>
+
+  <!-- ===== TECHNICAL SKILLS ===== -->
+  <section id="skills" class="section">
+    <h2>Technical Skills & Knowledge</h2>
+    <ul>
+      <li>Programming Languages: Python, C, JavaScript</li>
+      <li>Web Development: HTML, CSS, React, Node.js</li>
+      <li>Database: MySQL, MongoDB</li>
+      <li>Tools: Git, VS Code</li>
+      <li>Other: Machine Learning, Cloud Basics, LLM </li>
+    </ul>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section">
+    <h2>Education Qualifications</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>Institution</th>
+          <th>Year</th>
+          <th>Marks / Percentage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bachelor of Technology in CSE</td>
+          <td>GEC Wayanad </td>
+          <td>2022 - 2026</td>
+          <td>Currently learning</td>
+        </tr>
+        <tr>
+          <td>Higher Secondary</td>
+          <td>Medical College Campus Higher Secondary School</td>
+          <td>2018 - 2020</td>
+          <td>96%</td>
+        </tr>
+        <tr>
+          <td>High School</td>
+          <td>Vidya Nikethan School</td>
+          <td>2015 - 2019</td>
+          <td>99%</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements" class="section">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Third prize Winner of Tinkerhubs College Hackathon 2023</li>
+      <li>Secured 1st Place in Coding Challenge at XYZ Fest</li>
+      <li>Published research paper on AI in Healthcare</li>
+      <li>Internship at ABC Company as Web Developer</li>
+    </ul>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <h2>Contact Details</h2>
+    <p><strong>Email:</strong> snehas_22b290cs@gecwyd.ac.in</p>
+    <p><strong>Phone:</strong> +91-9048661917</p>
+    <p><strong>LinkedIn:</strong> 
+      <a href="https://linkedin.com/in/snehhhhhhaa" target="_blank">https://linkedin.com/in/snehhhhhhaa</a>
+    </p>
+    <button class="action-btn" onclick="alert('Thank you for visiting!')">Say Hello</button>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 Your Name | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
